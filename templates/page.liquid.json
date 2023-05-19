@@ -91,7 +91,7 @@
     "59c8bcc9-119b-4f6c-b313-3a87289b83ba": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.title == \"Contact\"%}\n{{'yes, yes' | capitalize}}\n{%endif%}",
+        "custom_liquid": "{% if page.title == \"Contactt\"%}\n{{'yes, yes' | capitalize}}\n{%else\n\n%}\n{%endif%}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
