@@ -10,7 +10,7 @@
     "0b23776a-131a-4042-b493-ec8196c915d8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{page.title | upper}}",
+        "custom_liquid": "{{page.title}}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -91,7 +91,7 @@
     "59c8bcc9-119b-4f6c-b313-3a87289b83ba": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if page.title == \"Contact\"%}\nYes, it is\n{%endif%}",
+        "custom_liquid": "{% if page.title == \"Contact\"%}\n{{}}\n{%endif%}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
